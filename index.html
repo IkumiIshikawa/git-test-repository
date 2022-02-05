@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>HTML&CSS 実践</title>
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <header>
+      <nav>
+         <ul>
+            <li><a href="#service">SERVICE</a></li>
+            <li><a href="#news">NEWS</a></li>
+            <li><a href="#price">PRICE</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+      </nav>
+   </header>
+
+   <main>
+      <section id="top">
+         <div class="top_wrapper">
+            <h1>アロママッサージ</h1>
+         </div>
+      </section>
+
+      <section id="service">
+         <h2 class="section_title">SERVICE</h2>
+         <div class="service_wrapper">
+         <div class="service_left">
+            <ul>
+               <li>
+                  <img src="img/massage1.jpeg" alt="サービス画像1">
+               </li> 
+               <li>
+                  <img src="img/massage.jpeg" alt="サービス画像">
+               </li>
+            </ul>
+         </div>
+         <div class="service_right">
+            <h3>無料体験キャンペーン実施中</h3>
+            <p>初めてのお客様に限り”30分”無料でマッサージをさせていただきます。</p>
+            <hr>
+            <h3>身体のプロが親切、丁寧にサポート！</h3>
+            <p>整体師学校で技術を学んだスタッフが、お一人おひとりのご要望に沿った背術を行います。</p>
+            <hr>
+            <h3>ゆったりくつろげる空間づくり</h3>
+            <p>広々としたスペースで、リラックスして施術を受けていただけます。施術スペースはカーテンで区切れますので、、人目も気ならず安心。</p>
+            <hr>
+         </div>
+         </div>
+      </section>
+
+      <section id="news">
+         <h2 class="section_title">NEWS</h2>
+         <div class="news_wrapper">
+            <p>2021/1/1 新春無料体験キャンペーン開始</p>
+            <p>2020/12/1 年末年始の店舗休業案内</p>
+            <p>2020/8/1 感染対策に関する実施状況</p>
+          </div>
+      </section>
+
+      <section id="price">
+         <h2 class="section_title">PRICE</h2>
+         <div class="price_wrapper">
+            <table>
+               <tr>
+                  <th>ー</th>
+                  <th>６０分</th>
+                  <th>９０分</th>
+               </tr>
+               <tr>
+                  <td>料金</td>
+                  <td>１２００円</td>
+                  <td>２０００円</td>
+               </tr>
+               <tr>
+                  <td>延長</td>
+                  <td>５００円/１５分</td>
+                  <td></td>
+               </tr>
+            </table>
+         </div>
+      </section>
+
+      <section id="contact">
+         <h2 class="section_title">CONTACT</h2>
+         <form class="form" method="post">
+            <div>
+               <label for="name">Name:</label>
+               <input type="text" id="name" name="user_name">
+             </div>
+             <div>
+               <label for="mail">E-mail:</label>
+               <input type="email" id="mail" name="user_mail">
+             </div>
+             <div>
+               <label for="tel">Tell:</label>
+               <input type="tel" id="tel" name="user_tel">
+             </div>
+             <div>
+               <label for="msg">Message:</label>
+               <textarea id="msg" name="user_message"></textarea>
+             </div>
+             <div class="button_submit">
+               <button class="button" type="submit">送信</button>
+             </div>
+         </form>
+       </section>
+   </main>
+   <footer id="footer">
+      <div>
+         <small>© 2021 WithCode All rights reserved.</small>
+      </div>
+    </footer>
+</body>
+</html>
